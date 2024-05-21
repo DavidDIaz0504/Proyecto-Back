@@ -1,0 +1,188 @@
+body {
+    padding-top: 70px;
+    /* Espacio para la barra de navegación fija */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    color: #FBD6D2 !important;
+    /* Cambia el color del título de la tienda */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* Corregido para usar rgba */
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(71, 28, 87, 0.2);
+    /* Usa rgba para la sombra y ajusta la intensidad */
+}
+
+.custom-navbar {
+    background-color: #471C57 !important;
+}
+
+footer {
+    width: 100%;
+    /* Asegura que el footer se extienda a lo ancho de la pantalla */
+    margin: 0;
+    /* Elimina cualquier margen externo que pueda tener */
+    padding: 10px 0;
+    /* Agrega un padding vertical para espacio interno */
+    background-color: #471C57;
+    /* El mismo color que el navbar */
+    color: #FBD6D2;
+    /* Color de texto, ajustable según tus necesidades */
+    position: relative;
+    /* Posicionamiento relativo */
+    bottom: 0;
+    /* Asegura que esté al fondo de la página */
+}
+
+html {
+    height: 100%;
+    /* Establece la altura completa para HTML */
+}
+
+.iconss {
+    height: 45px;
+    padding-left: 15px;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    /* Esto asegura que los elementos se apilen verticalmente */
+    align-items: center;
+    /* Esto centra todos los hijos flexibles horizontalmente */
+    text-align: center;
+}
+
+.profile-image,
+.clickable-image {
+    height: 280px;
+    margin-top: 25px;
+}
+
+.clickable-image {
+    cursor: pointer;
+}
+
+.favorites-section {
+    flex: 1;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.btnlogut {
+    color: red;
+    font-size: 20px;
+    background-color: grey;
+    border: none;
+    padding: 10px 20px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.titlename {
+    color: #FBD6D2;
+    text-shadow: -1px -1px 0 #471C57, 1px -1px 0 #471C57, -1px 1px 0 #471C57, 1px 1px 0 #471C57;
+    font-style: bold;
+    text-align: center;
+}
+
+.titleico {
+    color: #FBD6D2;
+    text-shadow: -1px -1px 0 #471C57, 1px -1px 0 #471C57, -1px 1px 0 #471C57, 1px 1px 0 #471C57;
+    font-style: bold;
+    font-size: 25px;
+    font-style: bold;
+    margin: 6px;
+}
+
+.images-section {
+    display: flex;
+    justify-content: center;
+    /* Alinea los elementos horizontalmente al centro */
+    align-items: center;
+    padding: 20px 0;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 0px;
+}
+
+.icons {
+    height: 65px;
+    margin-bottom: 5px;
+    /* Espacio entre la imagen y el texto */
+}
+
+.favorites-section {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente los elementos al centro */
+    justify-content: flex-start;
+    /* Alinea horizontalmente los elementos al inicio */
+    gap: 10px;
+    /* Espacio entre los elementos */
+}
+
+.body {
+    padding-bottom: 100px;
+    /* Ajusta el padding inferior si es necesario */
+}
+
+.card-img-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.total-container {
+    margin-top: 80px;
+    /* Separación desde el contenido anterior */
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+

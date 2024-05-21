@@ -1,0 +1,43 @@
+.body {
+    height: 100vh;
+    background-color: #471C57;
+    display: flex;
+}
+
+.container {
+    color: #FBD6D2;
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.card {
+    max-width: 400px;
+    background-color: #FBD6D2;
+    color: #471C57;
+    margin-top: 20px;
+    border-radius: 20px; /* Más redondeado */
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 30px; /* Más espacio entre el borde y el contenido */
+}
+
+.btn-rol {
+    background-color: #471C57;
+    color: #FBD6D2;
+    border: none;
+}
+
+.btn-rol:hover {
+    background-color: #000000;
+    color: #FBD6D2;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}

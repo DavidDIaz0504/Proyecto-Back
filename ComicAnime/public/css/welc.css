@@ -1,0 +1,129 @@
+body {
+    padding-top: 70px; /* Espacio para la barra de navegación fija */
+}
+
+.navbar-brand {
+    color: #FBD6D2!important; /* Cambia el color del título de la tienda */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Corregido para usar rgba */
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(71, 28, 87, 0.2); /* Usa rgba para la sombra y ajusta la intensidad */
+}
+
+
+.custom-navbar {
+    background-color: #471C57 !important;
+}
+
+.row {
+    overflow-x: auto; /* Habilita el desplazamiento horizontal */
+    white-space: nowrap; /* Evita el salto de línea entre elementos */
+}
+
+.col-md-3 {
+    display: inline-block; /* Hace que las columnas se comporten como elementos en línea */
+    float: none; /* Anula el comportamiento flotante predeterminado */
+}
+
+footer {
+    width: 100%; /* Asegura que el footer se extienda a lo ancho de la pantalla */
+    margin: 0; /* Elimina cualquier margen externo que pueda tener */
+    padding: 10px 0; /* Agrega un padding vertical para espacio interno */
+    background-color: #471C57; /* El mismo color que el navbar */
+    color: #FBD6D2; /* Color de texto, ajustable según tus necesidades */
+    position: relative; /* Posicionamiento relativo */
+    bottom: 0; /* Asegura que esté al fondo de la página */
+}
+html {
+    height: 100%; /* Establece la altura completa para HTML */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Organiza los contenidos en columna */
+    min-height: 100vh; /* Altura mínima basada en la altura del viewport */
+}
+
+.container h2 {
+    color: #471C57;
+    font-weight: bold; /* Aplica negrita */
+    font-size: 40px; /* Aumenta el tamaño del texto */
+}
+.btn-ver-todo {
+    color: #FBD6D2; /* Color del texto */
+    font-size: 30px;
+    background-color: transparent; /* Fondo completamente transparente */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Ajusta el padding según necesites */
+    transition: color 0.3s; /* Transición suave del color del texto */
+    text-shadow: -1px -1px 0 #471C57, 1px -1px 0 #471C57, -1px 1px 0 #471C57, 1px 1px 0 #471C57; /* Simula un contorno alrededor del texto */
+}
+
+.btn-ver-todo:hover {
+    color: #471C57;
+    background-color: #FBD6D2;
+}
+
+.card {
+    background-color: black; /* Fondo negro para las tarjetas */
+    color: #FBD6D2; /* Color del texto */
+    height: 100%; /* Asegurar que todas las tarjetas tengan el mismo alto */
+    border: none; /* Opcional: elimina el borde de las tarjetas */
+}
+
+.card-body {
+    display: flex; /* Usar flexbox para alinear el contenido */
+    flex-direction: column; /* Orientación vertical */
+    justify-content: center; /* Centrar contenido verticalmente */
+    align-items: center; /* Centrar contenido horizontalmente */
+}
+
+.card-title {
+    margin: auto; /* Centrar el título automáticamente */
+    font-size: 1.2rem; /* Ajusta el tamaño del texto según necesites */
+}
+
+.card img {
+    width: 100%; /* Asegura que la imagen cubra el ancho de la tarjeta */
+    height: auto; /* Mantener la proporción de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin deformarse */
+}
+
+.filter {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    background-color: transparent;
+    color: #471C57;
+}
+
+.btnfilter {
+    color: #FBD6D2;
+    font-size: 20px;
+    background-color: #471C57;
+    border: none;
+    padding: 10px 20px;
+    transition: color 0.3s, background-color 0.3s;
+    text-shadow: -1px -1px 0 #471C57, 1px -1px 0 #471C57, -1px 1px 0 #471C57, 1px 1px 0 #471C57;
+    border-radius: 20px; /* Redondea las esquinas del botón */
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.btnfilter:hover {
+    color: #471C57;
+    background-color: #FBD6D2;
+}
+
+.iconss {
+    height: 45px;
+    padding-left: 15px;
+}
+

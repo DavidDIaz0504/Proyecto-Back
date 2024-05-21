@@ -1,0 +1,125 @@
+.body {
+    height: 100vh;
+    background-color: #471C57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Centra el contenido verticalmente */
+}
+
+
+.container {
+    margin-top: 100px;
+    /* Ajusta el espacio entre la barra de navegación y el contenido */
+}
+
+.btn-login {
+    background-color: #FBD6D2;
+    color: #471C57;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-login:hover {
+    background-color: #000000;
+    color: #FBD6D2;
+}
+
+.btn-google,
+.btn-apple {
+    color: #FBD6D2;
+    background-color: transparent;
+    border: 1px solid #FBD6D2;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-google:hover,
+.btn-apple:hover {
+    color: #471C57;
+    background-color: #FBD6D2;
+}
+
+.icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.icona {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    color: #471C57 !important;
+    /* Cambia el color del título de la tienda */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* Corregido para usar rgba */
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(71, 28, 87, 0.2);
+    /* Usa rgba para la sombra y ajusta la intensidad */
+}
+
+
+.custom-navbar {
+    background-color: #FBD6D2 !important;
+}
+
+.row {
+    overflow-x: auto;
+    /* Habilita el desplazamiento horizontal */
+    white-space: nowrap;
+    /* Evita el salto de línea entre elementos */
+}
+
+.col-md-3 {
+    display: inline-block;
+    /* Hace que las columnas se comporten como elementos en línea */
+    float: none;
+    /* Anula el comportamiento flotante predeterminado */
+}
+
+.login-text {
+    color: #FBD6D2;
+}
+
+.user-text {
+    color: #FBD6D2;
+}
+
+.pass-text {
+    color: #FBD6D2;
+}
+
+.no-have {
+    color: #FBD6D2;
+}
+
+footer {
+    width: 100%; /* Asegura que el footer se extienda a lo ancho de la pantalla */
+    margin: 0; /* Elimina cualquier margen externo que pueda tener */
+    padding: 10px 0; /* Agrega un padding vertical para espacio interno */
+    background-color: #FBD6D2; /* El mismo color que el navbar */
+    color: #471C57; /* Color de texto, ajustable según tus necesidades */
+    position: relative; /* Posicionamiento relativo */
+    bottom: 0;
+}
+
+.iconss {
+    height: 45px;
+    padding-left: 15px;
+}

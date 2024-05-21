@@ -1,0 +1,90 @@
+body {
+    padding-top: 70px; /* Espacio para la barra de navegación fija */
+}
+
+.navbar-brand {
+    color: #FBD6D2!important; /* Cambia el color del título de la tienda */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.custom-navbar {
+    background-color: #471C57 !important;
+}
+
+.row {
+    overflow-x: auto; /* Habilita el desplazamiento horizontal */
+    white-space: nowrap; /* Evita el salto de línea entre elementos */
+}
+
+.col-md-3 {
+    display: inline-block; /* Hace que las columnas se comporten como elementos en línea */
+    float: none; /* Anula el comportamiento flotante predeterminado */
+}
+
+footer {
+    width: 100%; /* Asegura que el footer se extienda a lo ancho de la pantalla */
+    margin: 0; /* Elimina cualquier margen externo que pueda tener */
+    padding: 10px 0; /* Agrega un padding vertical para espacio interno */
+    background-color: #471C57; /* El mismo color que el navbar */
+    color: #FBD6D2; /* Color de texto, ajustable según tus necesidades */
+    position: relative; /* Posicionamiento relativo */
+    bottom: 0; /* Asegura que esté al fondo de la página */
+}
+html {
+    height: 100%; /* Establece la altura completa para HTML */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Organiza los contenidos en columna */
+    min-height: 100vh; /* Altura mínima basada en la altura del viewport */
+}
+.container {
+    margin-top: 100px; /* Ajusta el espacio entre la barra de navegación y el contenido */
+}
+
+.card {
+    background-color: #FBD6D2;
+    color: #471C57;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-asistir {
+    background-color: #471C57;
+    color: #FBD6D2;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn-asistir:hover {
+    background-color: #000000;
+    color: #FBD6D2;
+}
+
+.icon{
+    height: 32px;
+    margin-top: 10px;
+}
+
+.titleev{
+    color: #471C57;
+    font-style: bold;
+}
+
+.iconss {
+    height: 45px;
+    padding-left: 15px;
+}

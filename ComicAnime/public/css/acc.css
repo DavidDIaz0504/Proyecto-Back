@@ -1,0 +1,175 @@
+body {
+    padding-top: 70px;
+    /* Espacio para la barra de navegación fija */
+}
+
+.navbar-brand {
+    color: #FBD6D2 !important;
+    /* Cambia el color del título de la tienda */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* Corregido para usar rgba */
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(71, 28, 87, 0.2);
+    /* Usa rgba para la sombra y ajusta la intensidad */
+}
+
+
+.custom-navbar {
+    background-color: #471C57 !important;
+}
+
+.row {
+    overflow-x: auto;
+    /* Habilita el desplazamiento horizontal */
+    white-space: nowrap;
+    /* Evita el salto de línea entre elementos */
+}
+
+.col-md-3 {
+    display: inline-block;
+    /* Hace que las columnas se comporten como elementos en línea */
+    float: none;
+    /* Anula el comportamiento flotante predeterminado */
+}
+
+footer {
+    width: 100%;
+    /* Asegura que el footer se extienda a lo ancho de la pantalla */
+    margin: 0;
+    /* Elimina cualquier margen externo que pueda tener */
+    padding: 10px 0;
+    /* Agrega un padding vertical para espacio interno */
+    background-color: #471C57;
+    /* El mismo color que el navbar */
+    color: #FBD6D2;
+    /* Color de texto, ajustable según tus necesidades */
+    position: relative;
+    /* Posicionamiento relativo */
+    bottom: 0;
+    /* Asegura que esté al fondo de la página */
+}
+
+html {
+    height: 100%;
+    /* Establece la altura completa para HTML */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* Organiza los contenidos en columna */
+    min-height: 100vh;
+    /* Altura mínima basada en la altura del viewport */
+}
+
+.iconss {
+    height: 45px;
+    padding-left: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    /* Esto asegura que los elementos se apilen verticalmente */
+    align-items: center;
+    /* Esto centra todos los hijos flexibles horizontalmente */
+    text-align: center;
+}
+
+.profile-image,
+.clickable-image {
+    height: 280px;
+    margin-top: 25px;
+}
+
+.clickable-image {
+    cursor: pointer;
+}
+
+.favorites-section {
+    flex: 1;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.btnlogut {
+    color: red;
+    font-size: 20px;
+    background-color: grey;
+    border: none;
+    padding: 10px 20px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.titlename {
+    color: #FBD6D2;
+    text-shadow: -1px -1px 0 #471C57, 1px -1px 0 #471C57, -1px 1px 0 #471C57, 1px 1px 0 #471C57;
+    font-style: bold;
+}
+
+.titleico {
+    color: #FBD6D2;
+    text-shadow: -1px -1px 0 #471C57, 1px -1px 0 #471C57, -1px 1px 0 #471C57, 1px 1px 0 #471C57;
+    font-style: bold;
+    font-size: 25px;
+    font-style: bold;
+    margin: 6px;
+}
+
+.images-section {
+    display: flex;
+    justify-content: center;
+    /* Alinea los elementos horizontalmente al centro */
+    align-items: center;
+    padding: 20px 0;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 0px;
+}
+
+.icons {
+    height: 65px;
+    margin-bottom: 5px;
+    /* Espacio entre la imagen y el texto */
+}
+
+.favorites-section {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente los elementos al centro */
+    justify-content: flex-start;
+    /* Alinea horizontalmente los elementos al inicio */
+    gap: 10px;
+    /* Espacio entre los elementos */
+}
