@@ -1,0 +1,39 @@
+/* Estilos generales */
+body {
+    padding-top: 100px; /* Ajusta el espacio para la barra de navegación fija */
+    background-color: #f8f9fa; /* Color de fondo general */
+}
+
+.container {
+    margin-top: 50px; /* Ajusta el espacio entre la barra de navegación y el contenido */
+}
+
+/* Navbar */
+.navbar-brand {
+    color: #fbd6d2!important; /* Cambia el color del título de la tienda */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.iconss {
+    height: 45px;
+    padding-left: 15px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    /* Asegura que el footer se extienda a lo ancho de la pantalla */
+    margin: 0;
+    /* Elimina cualquier margen externo que pueda tener */
+    padding: 10px 0;
+    /* Agrega un padding vertical para espacio interno */
+    background-color: #471C57;
+    /* El mismo color que el navbar */
+    color: #FBD6D2;
+    /* Color de texto, ajustable según tus necesidades */
+    position: relative;
+    /* Posicionamiento relativo */
+    bottom: 0;
+    /* Asegura que esté al fondo de la página */
+}

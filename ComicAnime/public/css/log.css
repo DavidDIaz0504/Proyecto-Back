@@ -1,13 +1,15 @@
 .body {
     height: 100vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-color: #471C57;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 50px;
     /* Centra el contenido verticalmente */
 }
-
 
 .container {
     margin-top: 100px;
@@ -28,6 +30,7 @@
     background-color: #000000;
     color: #FBD6D2;
 }
+
 
 .btn-google,
 .btn-apple {
@@ -95,6 +98,7 @@
 
 .login-text {
     color: #FBD6D2;
+    padding-top: 200px;
 }
 
 .user-text {

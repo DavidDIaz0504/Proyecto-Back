@@ -12,7 +12,7 @@
 </head>
 
 <body class="body">
-    <a href="/"><img src="{{ asset('imgs/logonb.png') }}" alt="Logo"
+    <a href="/"><img src="{{ asset('imgs/logo.png') }}" alt="Logo"
             style="height: 50px; position: absolute; top: 10px; left: 10px;"></a>
     <div class="container d-flex justify-content-center align-items-center flex-column">
         <h1 class="text-uppercase fw-bold mb-4">Selecciona tu Rol</h1>
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="card mt-4">
-            <img src="{{ asset('imgs/seller.png') }}" class="card-img-top" alt="Vendedor">
+            <img src="{{ asset('imgs/logo.png') }}" class="card-img-top" alt="Vendedor">
             <div class="card-body">
                 <h5 class="card-title">Vendedor</h5>
                 <p class="card-text">El rol de vendedor es para poder brindarte información de algún artículo, objeto o

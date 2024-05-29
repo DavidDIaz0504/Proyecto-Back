@@ -58,7 +58,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="container evento-container d-flex flex-column align-items-center">
-                    <img src="{{ asset('imgs/event1.png') }}" class="img-fluid evento-img" alt="Evento 1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFpo3l-FcBwwpZGSMSy2GPN6jn-30yWcflSg&s" class="img-fluid evento-img" alt="Evento 1">
                     <div class="d-flex justify-content-center mt-3">
                         <button class="btn btn-primary btn-asistir me-2">Asistir</button>
                         <img src="{{ asset('imgs/like.png') }}" alt="Like" class="icon">
@@ -78,7 +78,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="container evento-container d-flex flex-column align-items-center">
-                    <img src="{{ asset('imgs/event2.png') }}" class="img-fluid evento-img" alt="Evento 1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxqYqy6ep1AT-xMtgafFKyYs_MduF00D4kg&s" class="img-fluid evento-img" alt="Evento 1">
                     <div class="d-flex justify-content-center mt-3">
                         <button class="btn btn-primary btn-asistir me-2">Asistir</button>
                         <img src="{{ asset('imgs/like.png') }}" alt="Like" class="icon">
@@ -88,7 +88,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="container evento-container d-flex flex-column align-items-center">
-                    <img src="{{ asset('imgs/event2.png') }}" class="img-fluid evento-img" alt="Evento 1">
+                    <img src="https://blogbagatela.wordpress.com/wp-content/uploads/2019/10/71860223_2875087599185318_5924745773802586112_n.jpg" class="img-fluid evento-img" alt="Evento 1">
                     <div class="d-flex justify-content-center mt-3">
                         <button class="btn btn-primary btn-asistir me-2">Asistir</button>
                         <img src="{{ asset('imgs/like.png') }}" alt="Like" class="icon">
@@ -98,7 +98,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="container evento-container d-flex flex-column align-items-center">
-                    <img src="{{ asset('imgs/event1.png') }}" class="img-fluid evento-img" alt="Evento 1">
+                    <img src="https://blogbagatela.wordpress.com/wp-content/uploads/2019/05/56490378_640802683034218_2332102632534966272_o.jpg" class="img-fluid evento-img" alt="Evento 1">
                     <div class="d-flex justify-content-center mt-3">
                         <button class="btn btn-primary btn-asistir me-2">Asistir</button>
                         <img src="{{ asset('imgs/like.png') }}" alt="Like" class="icon">
@@ -108,7 +108,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="container evento-container d-flex flex-column align-items-center">
-                    <img src="{{ asset('imgs/event1.png') }}" class="img-fluid evento-img" alt="Evento 1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrR_2Z58nCQU8FE9x67xhOt7IO0hMtD2V-Lg&s" class="img-fluid evento-img" alt="Evento 1">
                     <div class="d-flex justify-content-center mt-3">
                         <button class="btn btn-primary btn-asistir me-2">Asistir</button>
                         <img src="{{ asset('imgs/like.png') }}" alt="Like" class="icon">
@@ -118,7 +118,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="container evento-container d-flex flex-column align-items-center">
-                    <img src="{{ asset('imgs/event2.png') }}" class="img-fluid evento-img" alt="Evento 1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjRfaBbx_4fkZwsWsAjqu7mlI4i6yymmF6fg&s" class="img-fluid evento-img" alt="Evento 1">
                     <div class="d-flex justify-content-center mt-3">
                         <button class="btn btn-primary btn-asistir me-2">Asistir</button>
                         <img src="{{ asset('imgs/like.png') }}" alt="Like" class="icon">

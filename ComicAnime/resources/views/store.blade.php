@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Estilos propios -->
-    <link rel="stylesheet" href="{{ asset('css/event.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/store.css') }}">
 </head>
 
 <body>
@@ -37,101 +37,26 @@
     <div class="container mt-5">
         <h1 class="text-center fw-bold mb-4 titleev">Tienda</h1>
         <div class="row">
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/akats_bag.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 1</h5>
-                    </div>
-                </a>
+            <div class="row mb-4 filter-buttons">
+                <div class="col d-flex">
+                    <a href="{{ route('store', ['category' => 'Ropa']) }}" class="btn filter-button mx-2">Ropa</a>
+                    <a href="{{ route('store', ['category' => 'Belleza']) }}" class="btn filter-button mx-2">Belleza</a>
+                    <a href="{{ route('store', ['category' => 'Tecnologia']) }}" class="btn filter-button mx-2">Tecnología</a>
+                    <a href="{{ route('store', ['category' => 'Decoracion']) }}" class="btn filter-button mx-2">Decoración</a>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/akats_rings.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 2</h5>
+
+            <div class="row">
+                @foreach ($products as $product)
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <a href="{{ route('product.details', ['id' => $product['id']]) }}" class="card">
+                            <img src="{{ $product['image'] }}" class="card-img-top" alt="{{ $product['title'] }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ $product['title'] }}</h5>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/inuyasha_lamp.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 3</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/akats_bag.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 4</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/akats_bag.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 1</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/akats_rings.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 2</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/inuyasha_lamp.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 3</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/akats_bag.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 4</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/akats_bag.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 1</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/akats_rings.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 2</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/inuyasha_lamp.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 3</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="/details" class="card">
-                    <img src="{{ asset('imgs/akats_bag.png') }}" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Producto 4</h5>
-                    </div>
-                </a>
+                @endforeach
             </div>
         </div>
     </div>

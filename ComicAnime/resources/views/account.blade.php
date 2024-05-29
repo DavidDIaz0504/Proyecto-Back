@@ -43,7 +43,7 @@
                 <h2 class="titleico">Eventos Guardados</h2>
             </div>
             <div class="icon-container">
-                <img src="{{ asset('imgs/cartb.png') }}" alt="Carrito" class="icons">
+                <img src="{{ asset('imgs/cart.png') }}" alt="Carrito" class="icons">
                 <h2 class="titleico">Carrito</h2>
             </div>
         </div>

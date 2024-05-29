@@ -1,98 +1,54 @@
 body {
-    padding-top: 100px; /* Ajusta el espacio para la barra de navegación fija */
+    padding-top: 100px; /* Espacio para la barra de navegación fija */
 }
-
-.container {
-    margin-top: 50px; /* Ajusta el espacio entre la barra de navegación y el contenido */
-}
-
-/* Alinea verticalmente los botones */
-.btn-primary, .btn-secondary {
-    margin-top: 10px;
-}
-
-@media (min-width: 768px) {
-    .container {
-        margin-top: 100px; /* Ajusta el espacio entre la barra de navegación y el contenido en dispositivos grandes */
-    }
-}
-
-.navbar-brand {
-    color: #FBD6D2!important; /* Cambia el color del título de la tienda */
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Corregido para usar rgba */
-    transition: 0.3s;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(71, 28, 87, 0.2); /* Usa rgba para la sombra y ajusta la intensidad */
-}
-
 
 .custom-navbar {
     background-color: #471C57 !important;
 }
 
-.row {
-    overflow-x: auto; /* Habilita el desplazamiento horizontal */
-    white-space: nowrap; /* Evita el salto de línea entre elementos */
-}
-
-.col-md-3 {
-    display: inline-block; /* Hace que las columnas se comporten como elementos en línea */
-    float: none; /* Anula el comportamiento flotante predeterminado */
-}
-
-footer {
-    width: 100%; /* Asegura que el footer se extienda a lo ancho de la pantalla */
-    margin: 0; /* Elimina cualquier margen externo que pueda tener */
-    padding: 10px 0; /* Agrega un padding vertical para espacio interno */
-    background-color: #471C57; /* El mismo color que el navbar */
-    color: #FBD6D2; /* Color de texto, ajustable según tus necesidades */
-    position: relative; /* Posicionamiento relativo */
-    bottom: 0; /* Asegura que esté al fondo de la página */
-}
-html {
-    height: 100%; /* Establece la altura completa para HTML */
-}
-
-body {
-    display: flex;
-    flex-direction: column; /* Organiza los contenidos en columna */
-    min-height: 100vh; /* Altura mínima basada en la altura del viewport */
-}
-
-.btnAdd{
-    color: #FBD6D2;
-    font-size: 20px;
-    background-color: #471C57;
-    border: none;
-    padding: 10px 20px;
-    transition: color 0.3s, background-color 0.3s;
-    text-shadow: -1px -1px 0 #471C57, 1px -1px 0 #471C57, -1px 1px 0 #471C57, 1px 1px 0 #471C57;
-    border-radius: 20px; /* Redondea las esquinas del botón */
-    display: block;
-    margin: 0 auto; /* Centra horizontalmente */
-}
-
-.btnBuy{
-    color: #FBD6D2;
-    font-size: 20px;
-    background-color: #471C57;
-    border: none;
-    padding: 10px 20px;
-    transition: color 0.3s, background-color 0.3s;
-    text-shadow: -1px -1px 0 #471C57, 1px -1px 0 #471C57, -1px 1px 0 #471C57, 1px 1px 0 #471C57;
-    border-radius: 20px; /* Redondea las esquinas del botón */
-    display: block;
-    margin: 0 auto; /* Centra horizontalmente */
+.navbar-brand {
+    color: #FBD6D2!important; /* Color del título de la tienda */
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .iconss {
     height: 45px;
     padding-left: 15px;
+}
+
+.container {
+    margin-top: 50px; /* Espacio entre la barra de navegación y el contenido */
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin-top: 100px; /* Ajuste para dispositivos grandes */
+    }
+}
+
+.btnAdd, .btnBuy {
+    color: #FBD6D2;
+    background-color: #471C57;
+    border: none;
+    padding: 10px 20px;
+    text-shadow: -1px -1px 0 #471C57, 1px -1px 0 #471C57, -1px 1px 0 #471C57, 1px 1px 0 #471C57;
+    border-radius: 20px; /* Redondea las esquinas del botón */
+    display: block;
+    margin: 10px auto; /* Centra los botones horizontalmente y añade espacio */
+    transition: color 0.3s, background-color 0.3s;
+}
+
+
+footer {
+    background-color: #471C57; /* Color de fondo igual al navbar */
+    color: #FBD6D2; /* Color de texto */
+    padding: 10px 0; /* Padding vertical */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #FBD6D2; /* Mantiene los enlaces visibles */
 }

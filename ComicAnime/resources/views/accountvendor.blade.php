@@ -31,20 +31,20 @@
 
     <div class="profile-section">
         <img src="{{ asset('imgs/loginb.png') }}" alt="Imagen de perfil" class="profile-image">
-        <h2 class="titlename">Nombre del Usuario</h2>
+        <h2 class="titlename">Nombre del Vendedor</h2>
 
         <div class="images-section">
             <div class="icon-container">
                 <img src="{{ asset('imgs/history.png') }}" alt="Historial" class="icons">
-                <h2 class="titleico">Historial</h2>
+                <h2 class="titleico">Ventas</h2>
             </div>
             <div class="icon-container">
                 <img src="{{ asset('imgs/fav_event.png') }}" alt="Eventos Guardados" class="icons">
-                <h2 class="titleico">Eventos Guardados</h2>
+                <h2 class="titleico">Añadir eventos</h2>
             </div>
             <div class="icon-container">
                 <img src="{{ asset('imgs/cartb.png') }}" alt="Carrito" class="icons">
-                <h2 class="titleico">Carrito</h2>
+                <h2 class="titleico">añadir productos</h2>
             </div>
         </div>
 
@@ -69,5 +69,4 @@
 
 
 </body>
-
 </html>
